@@ -1,22 +1,65 @@
 aid: new-story
 name: New Story
-description: New Story is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  New Story is a US 501(c)(3) nonprofit building a housing market that helps
+  vulnerable families in Latin America become homeowners. It develops underused
+  land into affordable communities, enables families to own land, and connects
+  them to credit and home financing. Founded in 2014 (Y Combinator W15), New
+  Story has housed thousands of people across Haiti, Bolivia, Mexico, and El
+  Salvador, partnered with ICON to build the first community of 3D-printed
+  homes, and reports outcomes like 60% of land titles going to women and a 100%
+  portfolio repayment rate. Its impact-investing arm operates as New Story
+  Capital. This is a company profile in the API Evangelist network; New Story
+  publishes no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/new-story/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6553cf69648c427a4cd53fb3/68482a372769a759bd48e54f_New%20Story%20Open%20Graph.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Nonprofit
+- Housing
+- Real Estate
+- Homeownership
+- Land
+- Social Impact
+- Latin America
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
+common:
+- type: Website
+  url: https://newstoryhomes.org/
+- type: Blog
+  url: https://newstoryhomes.org/blog
+- type: Support
+  url: https://newstoryhomes.org/contact
+- type: PrivacyPolicy
+  url: https://newstoryhomes.org/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
