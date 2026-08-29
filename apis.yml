@@ -12,6 +12,17 @@ description: >-
   Capital. This is a company profile in the API Evangelist network; New Story
   publishes no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/new-story/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
